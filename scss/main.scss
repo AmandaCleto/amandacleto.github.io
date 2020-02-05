@@ -19,6 +19,12 @@ body {
     min-width: 400px;
 }
 
+@media (max-width: 780px) {
+    body {
+        @include background_mb;
+    }
+}
+
 //titles
 h1,
 h2,
