@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body id="bg_img">
+    <div class="overlay">
+        <header>
+            <div class="menu_btn">
+                <div class="menu_btn_bx">
+                    <div class="btn_line"></div>
+                    <div class="btn_line"></div>
+                    <div class="btn_line"></div>
+                </div>
+            </div>
+            <nav class="menu">
+                <div class="menu_branding">
+                    <div class="portrait"></div>
+                </div>
+                <ul class="menu_nav">
+                    <li class="nav_item"></li>
+                    <a href="index.html" class="nav_link">
+                        Home
+                    </a>
+                    </li>
+                    <li class="nav_item"></li>
+                    <a href="about.html" class="nav_link">
+                        Sobre Mim
+                    </a>
+                    </li>
+                    <li class="nav_item"></li>
+                    <a href="projects.html" class="nav_link">
+                        Projetos
+                    </a>
+                    </li>
+                    <li class="nav_item"></li>
+                    <a href="contact.html" class="nav_link" id="current">
+                        Contato
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="contact">
+            <h1 class="contact_lg_heading">
+                <span class="contact_lg_heading--secondary contact_lg_heading--gradient">Contato</span>
+            </h1>
+            <div id="contact">
+                <form id="form" class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbzDePh6G2f-_DGDtHeGYysCcyFmR_4e8EHTz4Qf08gK7IYdu6g/exec">
+                    <!-- change the form action to your script url -->
+                    <div class="contact">
+                        <div class="contact_elements">
+                            <fieldset class="contact_group">
+                                <label class="contL" for="name"><span class="aster">* </span>Nome: </label>
+                                <br>
+                                <input class="contact_form_control" id="name" name="name" required placeholder="Escreva seu nome completo" />
+                            </fieldset>
+                            <br>
+                            <fieldset class="contact_group">
+                                <label class="contL" for="message"><span class="aster">* </span>Mensagem: </label>
+                                <br>
+                                <textarea class="contact_form_control" id="message" name="message" rows="10" required placeholder="Mande-me uma mensagem!"></textarea>
+                            </fieldset>
+                            <br>
+                            <fieldset class="contact_group">
+                                <label class="contL" for="email"><span class="aster">* </span>Email:</label>
+                                <br>
+                                <input class="contact_form_control" id="email" name="email" type="email" val required placeholder="seu.nome@email.com" />
+                                <span class="email-invalid" style="display:none">Deve ser um e-mail válido</span>
+                            </fieldset>
+                            <button class=submit class="btEffect">Enviar</button>
+                        </div>
+                    </div>
+                    <!-- Customise the Thankyou Message People See when they submit the form: -->
+                    <div class="thankyou_message" style="display:none;">
+                        <h3 class="mgs">Sua mensagem foi enviada!</h3>
+                        <h3 class="mgs">Obrigada :D</h3>
+                    </div>
+                </form>
+
+            </div>
+        </main>
+        <script src="js/main.js"></script>
+    </div>
+    <script data-cfasync="false" type="text/javascript" src="js/contact.js"></script>
+</body>
+
+</html>

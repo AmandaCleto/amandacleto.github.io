@@ -1,0 +1,132 @@
+@import 'variables.scss';
+@import 'menu.scss';
+body {
+    @include background2;
+}
+
+.overlay {
+    overflow: auto;
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    &.about_lg_heading_ab {
+        font-size: 2.5rem;
+        margin-top: 0vh !important;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+
+.about_description_ab {
+    display: flex;
+    font-size: 1.2em;
+    background-color: darken($color: $yellow, $amount: 0);
+    .row {
+        flex-direction: row;
+    }
+    .about_description_ab_img {
+        align-self: center;
+    }
+    .description_img {
+        height: auto;
+        border-radius: 0 10% 45% 10%;
+        border: solid 4px $pink;
+        box-shadow: 1px 10px 10px 5px rgb(122, 113, 113);
+        display: inline-block;
+        margin: 20px;
+    }
+    .about_description_ab_txt {
+        color: black;
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+    }
+    .txt_primary {
+        align-items: stretch;
+        color: $yellow;
+        font-size: 2em;
+        font-style: italic;
+        font-variant: small-caps;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+        color: #DA5D80;
+        border-color: rgb(0, 0, 0);
+    }
+    .btn_cv {
+        width: 120px;
+        height: 50px;
+        background-color: gray;
+        margin-top: 1.5em;
+        outline: none;
+        text-decoration: none;
+        border: none;
+        font-size: 0.8em;
+    }
+    .btn_cv:hover {
+        background-color: #EF8DE0;
+    }
+    .txt_cv {
+        color: white;
+        font-size: 1.5em;
+    }
+}
+
+////////////////////////////
+@include mediaMd {
+    .row {
+        flex-direction: column;
+    }
+    .about_description_ab {
+        .description_img {
+            border-radius: 10% 0%;
+            margin-top: 2em;
+        }
+        .about_description_ab_txt {
+            text-align: justify;
+            padding-top: 0.1em;
+        }
+    }
+}
+
+@include mediaSm {
+    .about_description_ab {
+        .description_img {
+            width: 200px;
+            min-width: 150px;
+            height: auto;
+        }
+        .about_description_ab_txt {
+            text-align: center;
+            padding: 1em;
+        }
+        .txt_primary {
+            font-size: 1.4em;
+        }
+    }
+    h1,
+    h2,
+    h3 {
+        &.about_lg_heading {
+            font-size: 2rem;
+        }
+    }
+}
+
+@include mediaTSm {
+    .about_description_ab {
+        .description_img {
+            display: none;
+        }
+        .about_description_ab_txt {
+            text-align: center;
+            padding: 1em;
+        }
+        .txt_primary {
+            font-size: 1.4em;
+        }
+    }
+}
