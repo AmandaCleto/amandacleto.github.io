@@ -1,3 +1,165 @@
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -138,6 +300,168 @@
       width: 150px;
       height: 150px; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -277,16 +601,6 @@
       background: url("../img/profile_sm.png");
       width: 150px;
       height: 150px; } }
-
-.lg_heading_ab {
-  font-size: 2.5rem;
-  margin-top: 0vh !important;
-  text-align: center;
-  margin-bottom: 1em;
-  text-align: center; }
-
-.lg_heading--gradient {
-  text-align: center; }
 
 .about_description_ab {
   display: flex;
@@ -368,6 +682,87 @@
   .about_description_ab .txt_primary {
     font-size: 1.4em; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -508,6 +903,87 @@
       width: 150px;
       height: 150px; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .contact {
   border-radius: 5px;
   margin-left: 2em;
@@ -625,6 +1101,87 @@ label {
   .contact_elements {
     text-align: start; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -863,8 +1420,7 @@ h3 {
   h1.home_lg_heading,
   h2.home_lg_heading,
   h3.home_lg_heading {
-    font-size: 4rem;
-    text-align: unset; }
+    font-size: 4rem; }
   h1.home_sm_heading,
   h2.home_sm_heading,
   h3.home_sm_heading {
@@ -933,3 +1489,11 @@ a {
 @media screen and (max-width: 300px) {
   .home_sm_heading {
     text-align: left; } }
+
+h1.lg_heading_ab,
+h2.lg_heading_ab,
+h3.lg_heading_ab {
+  font-size: 2.5rem;
+  margin-top: 0vh !important;
+  text-align: center;
+  margin-bottom: 1em; }

@@ -14,6 +14,12 @@ html {
 }
 
 body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
     background-image: url(../img/background_dark.png);
     background-repeat: repeat;
     background-position: fixed;
@@ -24,12 +30,6 @@ body {
     -o-background-size: cover;
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    color: white;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
@@ -59,6 +59,7 @@ h3 {
     font-weight: 400;
     &.home_lg_heading {
         font-size: 4rem;
+        text-align: unset;
     }
     &.home_sm_heading {
         font-size: 2rem;
@@ -66,29 +67,16 @@ h3 {
     }
 }
 
-header {
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-}
-
-.home_lg_heading--secondary {
+//yellow and gradient part
+.lg_heading--gradient {
     color: $yellow;
-}
-
-.home_lg_heading--secondary {
-    text-decoration: none;
-    background-image: linear-gradient(to right, $yellow 0, $yellow 100%);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-}
-
-.home_lg_heading--gradient {
-    background-position: 0 -0.1em;
     background-image: linear-gradient(to right, rgba(255, 255, 0, 0.5) 0, rgba(246, 193, 244, 0.555) 100%);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.5s 0s;
 }
 
-.home_lg_heading--gradient:hover {
+.lg_heading--gradient:hover {
     background-size: 100% 100%;
 }
 
@@ -101,6 +89,22 @@ main {
         display: inline-block;
         span {
             display: none;
+        }
+    }
+    //tooltip
+    .home_icons li:hover {
+        span {
+            display: block;
+            position: absolute;
+            background-color: $secondary-color;
+            width: auto;
+            height: 25px;
+            padding: 5px;
+            margin-top: -70px;
+            border-radius: 10px;
+            margin-left: 20px;
+            box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+            color: black;
         }
     }
     .home_icons a {
@@ -147,22 +151,5 @@ a {
 @include mediaTSm {
     .home_sm_heading {
         text-align: left;
-    }
-}
-
-////
-.home_icons li:hover {
-    span {
-        display: block;
-        position: absolute;
-        background-color: $secondary-color;
-        width: auto;
-        height: 25px;
-        padding: 5px;
-        margin-top: -70px;
-        border-radius: 10px;
-        margin-left: 20px;
-        box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
-        color: black;
     }
 }

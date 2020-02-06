@@ -4,6 +4,7 @@
     text-align: center;
     margin-bottom: 1em;
 }
+
 .about_project {
     display: flex;
     align-items: center;
@@ -41,16 +42,19 @@
         }
     }
 }
+
 @include mediaSM {
     .about_project {
         display: inline-block;
     }
 }
+
 @include mediaMd {
     .about_project {
         align-items: center;
     }
 }
+
 @include mediaBg {
     .about_project {
         text-align: center;

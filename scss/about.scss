@@ -1,15 +1,19 @@
 @import 'variables.scss';
 @import 'menu.scss';
-h1,
-h2,
-h3 {
-    &.about_lg_heading_ab {
-        font-size: 2.5rem;
-        margin-top: 0vh !important;
-        text-align: center;
-        margin-bottom: 1em;
-    }
+//titles for about/contact/projects
+.lg_heading_ab {
+    font-size: 2.5rem;
+    margin-top: 0vh !important;
+    text-align: center;
+    margin-bottom: 1em;
+    text-align: center;
 }
+
+.lg_heading--gradient {
+    text-align: center;
+}
+
+//about 
 .about_description_ab {
     display: flex;
     font-size: 1.2em;
@@ -64,6 +68,7 @@ h3 {
         font-size: 1.5em;
     }
 }
+
 ////////////////////////////
 @include mediaMd {
     .row {
@@ -80,6 +85,7 @@ h3 {
         }
     }
 }
+
 @include mediaSm {
     .about_description_ab {
         .description_img {
@@ -103,6 +109,7 @@ h3 {
         }
     }
 }
+
 @include mediaTSm {
     .about_description_ab {
         .description_img {
