@@ -9,8 +9,10 @@
 }
 
 body {
-    @include background;
-    background: $primary-color;
+    background-image: url(../img/background_dark.png);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-attachment: fixed;
     color: white;
     height: 100%;
     margin: 0;
@@ -21,7 +23,7 @@ body {
 
 @media (max-width: 780px) {
     body {
-        @include background_mb;
+        background-image: url(../img/background_dark_mb.png);
     }
 }
 

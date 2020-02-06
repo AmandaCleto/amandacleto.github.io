@@ -1,3 +1,165 @@
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -138,6 +300,168 @@
       width: 150px;
       height: 150px; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -278,20 +602,10 @@
       width: 150px;
       height: 150px; } }
 
-body#bg_img {
-  background: url(../img/background_dark.png);
-  background-attachment: fixed;
-  background-size: cover;
-  /*.overlay {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                z-index: -1;
-                background: rgba($primary-color, $background-opacity2);
-            }*/ }
+/*body {
+    @include background2;
+}/*
+
 
 /*.overlay {
     overflow: auto;
@@ -385,6 +699,87 @@ h3.about_lg_heading_ab {
   .about_description_ab .txt_primary {
     font-size: 1.4em; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -525,6 +920,87 @@ h3.about_lg_heading_ab {
       width: 150px;
       height: 150px; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 /*.overlay {
     overflow: auto;
     height: 100%;
@@ -655,6 +1131,87 @@ label {
   .contact_elements {
     text-align: start; } }
 
+/*
+    @mixin background {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        height: 100%;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background2 {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: cover;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity2);
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+
+    /*
+    @mixin background_mb {
+    @if $show-home-image {
+    &#bg_img {
+        background: $home-mb-image;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*.overlay {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: rgba($primary-color, $background-opacity);
+            padding-left: 4em;
+        }*/
+/*
+
+    }
+
+    }
+
+    }
+    */
 .menu_btn {
   width: 30px;
   height: 30px;
@@ -847,48 +1404,20 @@ label {
   padding: 0; }
 
 body {
-  background: #444;
+  background-image: url(../img/background_dark.png);
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-attachment: fixed;
   color: white;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   min-width: 400px; }
-  body#bg_img {
-    background: url(../img/background_dark.png);
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-attachment: fixed;
-    /*.overlay {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                z-index: -1;
-                background: rgba($primary-color, $background-opacity);
-                padding-left: 4em;
-            }*/ }
 
 @media (max-width: 780px) {
-  body#bg_img {
-    background: url(../img/background_dark_mb.png);
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-attachment: fixed;
-    background-repeat: no-repeat;
-    /*.overlay {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                z-index: -1;
-                background: rgba($primary-color, $background-opacity);
-                padding-left: 4em;
-            }*/ } }
+  body {
+    background-image: url(../img/background_dark_mb.png); } }
 
 h1,
 h2,
