@@ -1,29 +1,33 @@
 @import 'variables.scss';
 @import 'menu.scss';
-@import 'about.scss';
-@import 'contact.scss';
-@import 'projects.scss';
+// @import 'about.scss';
+// @import 'contact.scss';
+// @import 'projects.scss';
 ////first page
 * {
     padding: 0;
 }
 
-body {
+html {
+    height: 100%;
     background-image: url(../img/background_dark.png);
     background-attachment: fixed;
     background-size: cover;
-    -webkit-background-attachment: fixed;
+}
+
+body {
     color: white;
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
-    min-width: 400px;
 }
 
 @media (max-width: 780px) {
-    body {
+    html {
         background-image: url(../img/background_dark_mb.png);
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
 
@@ -37,8 +41,8 @@ h3 {
         font-size: 4rem;
     }
     &.home_sm_heading {
+        font-size: 2rem;
         margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
     }
 }
 
@@ -57,7 +61,6 @@ header {
     background-image: linear-gradient(to right, $yellow 0, $yellow 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: background .5s;
 }
 
 .home_lg_heading--gradient {
@@ -127,7 +130,7 @@ a {
     }
 }
 
-//////
+////
 .home_icons li:hover {
     span {
         display: block;
