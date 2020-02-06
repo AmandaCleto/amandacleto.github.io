@@ -24,6 +24,10 @@ body {
     line-height: 1.5;
 }
 
+main {
+    height: 100%;
+}
+
 @media (max-width: 780px) {
     html {
         background-image: url(../img/background_dark_mb.png);
