@@ -1,0 +1,141 @@
+@import 'menu.scss';
+@import 'variables.scss';
+h1,
+h2,
+h3 {
+    &.contact_lg_heading {
+        font-size: 2.5rem;
+        margin-top: 0vh !important;
+        text-align: center;
+        margin-bottom: 1em;
+        color: $yellow;
+    }
+}
+///
+.contact {
+    border-radius: 5px;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 3em;
+}
+.contact_group {
+    width: 100%;
+    .contL {
+        font-size: 1.5em;
+    }
+    .aster {
+        color: red;
+    }
+    .contact_form_control {
+        min-width: 100px;
+    }
+}
+#name,
+#email {
+    height: 2.5em;
+    text-indent: 1em;
+}
+#message {
+    width: -webkit-fill-available;
+    line-height: normal;
+    padding: 0.9em;
+    height: 100px;
+}
+#name,
+#email {
+    width: 100%;
+}
+#name,
+#email,
+#message {
+    font-size: auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #608061;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 150px;
+    font-size: 1em;
+    background-color: rgb(209, 211, 209);
+}
+::-webkit-input-placeholder {
+    /* Edge */
+    color: rgb(119, 118, 118);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus,
+textarea:focus {
+    background-color: #D3FAD1;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: rgb(168, 119, 119);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus,
+textarea {
+    outline: none;
+}
+::placeholder {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    margin-top: 1.5em;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 5px;
+    border-color: none;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    outline: none;
+    background-color: #EF8DE0;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    80% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+button:hover {
+    background: $yellow;
+    transition: background-color 0.5s ease-out;
+    animation: bounce 1s;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.thankyou_message {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    font-size: 2em;
+    margin-top: 2em;
+    line-height: 1.5em;
+}
+.contact_elements {
+    .contact_group {
+        border: none;
+    }
+}
+//
+@include mediaMd {
+    .contact_elements {
+        text-align: start;
+    }
+}
