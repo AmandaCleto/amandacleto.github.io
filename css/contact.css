@@ -138,10 +138,10 @@
       width: 150px;
       height: 150px; } }
 
-.overlay {
-  overflow: auto;
-  height: 100%; }
-
+/*.overlay {
+    overflow: auto;
+    height: 100%;
+}*/
 h1.contact_lg_heading,
 h2.contact_lg_heading,
 h3.contact_lg_heading {

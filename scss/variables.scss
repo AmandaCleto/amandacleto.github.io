@@ -3,8 +3,8 @@ $secondary-color: rgb(211, 211, 211);
 $yellow: #eece1a;
 $pink: #EF8DE0;
 $show-home-image: true;
-$home-image: url(../img/background.png);
-$home-mb-image: url(../img/background_mb.png);
+$home-image: url(../img/background_dark.png);
+$home-mb-image: url(../img/background_dark_mb.png);
 $background-opacity: 0.6;
 $background-opacity2: 0.9;
 @mixin easeOut {
@@ -18,17 +18,17 @@ $background-opacity2: 0.9;
             background-attachment: fixed;
             background-size: cover;
             -webkit-background-attachment: fixed;
-            .overlay {
+            /*.overlay {
                 content: "";
                 position: absolute;
                 top: 0;
                 right: 0;
                 width: 100%;
-                height: auto;
+                height: 100%;
                 z-index: -1;
                 background: rgba($primary-color, $background-opacity);
                 padding-left: 4em;
-            }
+            }*/
         }
     }
 }
@@ -39,7 +39,7 @@ $background-opacity2: 0.9;
             background: $home-image;
             background-attachment: fixed;
             background-size: cover;
-            .overlay {
+            /*.overlay {
                 content: "";
                 position: absolute;
                 top: 0;
@@ -48,7 +48,7 @@ $background-opacity2: 0.9;
                 height: 100%;
                 z-index: -1;
                 background: rgba($primary-color, $background-opacity2);
-            }
+            }*/
         }
     }
 }
@@ -61,7 +61,7 @@ $background-opacity2: 0.9;
             background-size: cover;
             -webkit-background-attachment: fixed;
             background-repeat: no-repeat;
-            .overlay {
+            /*.overlay {
                 content: "";
                 position: absolute;
                 top: 0;
@@ -71,7 +71,7 @@ $background-opacity2: 0.9;
                 z-index: -1;
                 background: rgba($primary-color, $background-opacity);
                 padding-left: 4em;
-            }
+            }*/
         }
     }
 }
