@@ -344,7 +344,7 @@
     text-align: justify;
     padding-top: 0.1em; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .about_description_ab .description_img {
     width: 200px;
     min-width: 150px;
@@ -895,8 +895,11 @@ main {
     position: absolute;
     background-color: lightgray;
     width: auto;
-    height: 25px;
-    padding: 5px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: -70px;
     border-radius: 10px;
     margin-left: 20px;
@@ -923,7 +926,7 @@ a {
   color: white;
   text-decoration: none; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   h1.home_lg_heading,
   h2.home_lg_heading,
   h3.home_lg_heading {
